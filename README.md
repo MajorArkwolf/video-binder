@@ -1,29 +1,13 @@
-# Creating interactive presentations on Binder with RISE
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/binder-examples/jupyter-rise/master?filepath=index.ipynb)
+[![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/conda_environment/HEAD?filepath=index.ipynb)
 
-RISE allows you to quickly generate a live, interactive presentation from a
-Jupyter Notebook that is connected to the underlying Kernel of the notebook.
-Using a new feature for automatically launching
-the RISE plugin when a notebook is opened, RISE can be used to share interactive
-presentations that run in the cloud with Binder.
-This repository demonstrates how to accomplish this.
-
-To make your RISE presentation automatically-launch with it is open,
-add an `autolaunch=true` configuration
-parameter to a notebook's `livereveal` section in the
-metadata. E.g.:
-
-```
-...
-"livereveal": {
-        "autolaunch": true
-        }
-...
-```
-
-When the notebook is launched, your
-presentation will automatically begin.
-
-See the [RISE Documentation](https://damianavila.github.io/RISE/)
-for more information.
+## Useful Links
+- [RISE Docs: Slideshow - Junipyr Plugin](https://rise.readthedocs.io/en/latest/)
+- [jupyterlab_rise github](https://github.com/jupyterlab-contrib/rise)
+### Binder
+- [Binder Docs](https://mybinder.readthedocs.io/en/latest/introduction.html#introduction)
+- [Zero to Binder Guide](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html#creating-a-repo-to-binderize)
+### Manim
+- [Manim Github](https://github.com/ManimCommunity/manim/)
+- [Manim Docs: Math plotting](https://docs.manim.community/en/stable/index.html)
+- [3b1b Video examples](https://github.com/3b1b/videos)
